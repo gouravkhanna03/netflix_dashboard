@@ -67,8 +67,11 @@ The dataset was custom-built to resemble a realistic Netflix ecosystem:
 - KPIs: Total Revenue, Active Users, ARPU (Avg. Revenue per User)
 - Donut: Watch Time Share by Genre
 - Donut: Watch Time Share by Device
-- Map: Active Users by Country
-- Line + Column Chart: Monthly Revenue Trend
+- Table: Top 10 Most Watched Shows
+- Card Visual: Show Description
+- Slicer: Show Names With Images
+
+  (datanalyst_python_projects\report_screenshots\analytics.png)
 
 ---
 
@@ -77,6 +80,8 @@ The dataset was custom-built to resemble a realistic Netflix ecosystem:
 - Donut: Device Usage by User Count
 - Line + Column: Signups vs Cancellations (Year slicer)
 - KPIs: Net User Growth, Churn Rate (%), Signup Growth Rate (%)
+
+  
 
 ---
 
@@ -140,4 +145,25 @@ WHERE show_id IN (
 		  AND description IS NOT NULL
 		  AND poster_url IS NOT NULL
 );
+
+
+## 📊 Power BI KPIs & DAX Highlights
+
+Net User Growth = 
+Net User Growth =
+[Monthly Signups] - [Monthly Cancellations]
+
+
+Churn Rate (%) 
+DIVIDE(
+    [Monthly Cancellations],
+    [Monthly Signups] + [Monthly Cancellations]
+)
+
+
+Signup Growth Rate (%) =
+VAR PrevMonth =
+    CALCULATE([Monthly Signups], DATEADD(Calendar[Date], -1, MONTH))
+RETURN
+DIVIDE([Monthly Signups] - PrevMonth, PrevMonth)
 
