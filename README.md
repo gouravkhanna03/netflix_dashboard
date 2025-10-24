@@ -71,7 +71,7 @@ The dataset was custom-built to resemble a realistic Netflix ecosystem:
 - Card Visual: Show Description
 - Slicer: Show Names With Images
 
-  (datanalyst_python_projects\report_screenshots\analytics.png)
+![Page 2 – User Behavior & Subscription Trends] (datanalyst_python_projects\report_screenshots\analytics.png)
 
 ---
 
