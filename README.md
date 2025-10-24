@@ -2,7 +2,7 @@
 
 > A complete **data analytics project** built using **Excel, SQL, Python, and Power BI**, replicating Netflix’s analytical ecosystem — analyzing user behavior, engagement, subscriptions, and revenue trends.
 
----
+
 
 ## 🧩 Project Overview
 
@@ -16,7 +16,7 @@ To design a realistic business-ready dashboard that answers questions like:
 - How does churn affect revenue growth?
 - Which subscription plans bring the most value?
 
----
+
 
 ## ⚙️ Tech Stack
 
@@ -28,10 +28,7 @@ To design a realistic business-ready dashboard that answers questions like:
 | 📁 **Excel** | Initial data inspection & verification |
 | 🔗 **TMDB API** | Movie and show metadata collection (posters, type, etc.) |
 
----
 
-
----
 
 ## 🧮 Dataset Overview
 
@@ -48,7 +45,7 @@ The dataset was custom-built to resemble a realistic Netflix ecosystem:
 📅 **Time Range:** 2018–2025  
 📊 **Total Rows:** ~100,000 across all tables  
 
----
+
 
 ## 🧹 Data Processing Workflow
 
@@ -59,7 +56,7 @@ The dataset was custom-built to resemble a realistic Netflix ecosystem:
 3. **Modeling Relationships** between tables (1-to-many and many-to-1 joins)
 4. **Visualizations** using Power BI (with DAX measures for KPIs)
 
----
+
 
 ## 📈 Dashboard Overview
 
@@ -74,7 +71,7 @@ The dataset was custom-built to resemble a realistic Netflix ecosystem:
 ![Page 2 – User Behavior & Subscription Trends](netflix_pbi/report_screenshots/analytics.png)
 
 
----
+
 
 ### 🟩 **Page 2: Content Performance & Engagement**
 - Slicer & Card Visual: Full Show Details, Search by Rating Slicer, Total Show List Slicer
@@ -87,7 +84,7 @@ The dataset was custom-built to resemble a realistic Netflix ecosystem:
 ![Page 2: Content Performance & Engagement](netflix_pbi/report_screenshots/business.png)
   
 
----
+
 
 ### 🟦 **Page 3: User Behavior & Subscription Trends**
 - Slicer & Card Visual: Full Show Details, Search by Rating Slicer, Total Show List Slicer
@@ -98,7 +95,7 @@ The dataset was custom-built to resemble a realistic Netflix ecosystem:
 
 ![Page 2: Content Performance & Engagement](netflix_pbi/report_screenshots/users.png)
 
----
+
 
 ## 💡 Key Insights
 
@@ -111,7 +108,7 @@ The dataset was custom-built to resemble a realistic Netflix ecosystem:
 | 💸 **Revenue Growth** | Consistent upward trend post-2022 |
 | 🔁 **Premium Plans** | Highest contribution to total revenue |
 
----
+
 
 ## 📊 Sample SQL Queries
 The following **SQL VIEWS** were created and then imported into Power BI (PBI) for analysis:
@@ -154,7 +151,7 @@ WHERE show_id IN (
 		  AND poster_url IS NOT NULL
 );
 ```
----
+
 ## 📊 Power BI DAX Highlights
 
 > ```DAX
@@ -162,7 +159,6 @@ WHERE show_id IN (
 > [Monthly Signups] - [Monthly Cancellations]
 > ```
 
----
 
 > ```DAX
 > Churn Rate (%) =
@@ -172,7 +168,6 @@ WHERE show_id IN (
 > )
 > ```
 
----
 
 > ```DAX
 > Signup Growth Rate (%) =
@@ -182,12 +177,12 @@ WHERE show_id IN (
 > DIVIDE([Monthly Signups] - PrevMonth, PrevMonth)
 > ```
 
+---
 ## 👨‍💻 About Me
 
 Hi, I’m **Gaurav Khanna**, a Data Analyst passionate about turning complex data into simple, impactful insights.  
 Skilled in **Power BI, SQL, Excel, and Python**, I love building dashboards that tell a story and uncover hidden trends.
 
----
 
 ## 🤝 Connect with Me
 
@@ -195,7 +190,6 @@ Skilled in **Power BI, SQL, Excel, and Python**, I love building dashboards that
 💼 **LinkedIn:** [[your LinkedIn profile](https://www.linkedin.com/in/gauravkhanna03/)]  
 📧 **Email:** [gouravkhanna03@gmail.com]
 
----
 
 ## 🔖 Keywords
 
