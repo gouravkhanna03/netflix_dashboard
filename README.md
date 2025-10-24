@@ -147,23 +147,29 @@ WHERE show_id IN (
 );
 
 
-## 📊 Power BI KPIs & DAX Highlights
+## 📊 Power BI DAX Highlights
 
-Net User Growth = 
-Net User Growth =
-[Monthly Signups] - [Monthly Cancellations]
+> ```DAX
+> Net User Growth =
+> [Monthly Signups] - [Monthly Cancellations]
+> ```
 
+---
 
-Churn Rate (%) 
-DIVIDE(
-    [Monthly Cancellations],
-    [Monthly Signups] + [Monthly Cancellations]
-)
+> ```DAX
+> Churn Rate (%) =
+> DIVIDE(
+>     [Monthly Cancellations],
+>     [Monthly Signups] + [Monthly Cancellations]
+> )
+> ```
 
+---
 
-Signup Growth Rate (%) =
-VAR PrevMonth =
-    CALCULATE([Monthly Signups], DATEADD(Calendar[Date], -1, MONTH))
-RETURN
-DIVIDE([Monthly Signups] - PrevMonth, PrevMonth)
-
+> ```DAX
+> Signup Growth Rate (%) =
+> VAR PrevMonth =
+>     CALCULATE([Monthly Signups], DATEADD(Calendar[Date], -1, MONTH))
+> RETURN
+> DIVIDE([Monthly Signups] - PrevMonth, PrevMonth)
+> ```
