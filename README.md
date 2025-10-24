@@ -107,6 +107,7 @@ The dataset was custom-built to resemble a realistic Netflix ecosystem:
 ---
 
 ## 📊 Sample SQL Queries
+The following **SQL VIEWS** were created and then imported into Power BI (PBI) for analysis:
 
 ```sql
 -- Created VIEWS, imported into PBI
@@ -145,7 +146,7 @@ WHERE show_id IN (
 		  AND description IS NOT NULL
 		  AND poster_url IS NOT NULL
 );
-
+```
 
 ## 📊 Power BI DAX Highlights
 
