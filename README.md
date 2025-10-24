@@ -181,3 +181,22 @@ WHERE show_id IN (
 > RETURN
 > DIVIDE([Monthly Signups] - PrevMonth, PrevMonth)
 > ```
+
+## 👨‍💻 About Me
+
+Hi, I’m **Gaurav Khanna**, a Data Analyst passionate about turning complex data into simple, impactful insights.  
+Skilled in **Power BI, SQL, Excel, and Python**, I love building dashboards that tell a story and uncover hidden trends.
+
+---
+
+## 🤝 Connect with Me
+
+🌐 **Portfolio:** [https://gouravkhanna03.github.io/portfolio/]  
+💼 **LinkedIn:** [[your LinkedIn profile](https://www.linkedin.com/in/gauravkhanna03/)]  
+📧 **Email:** [gouravkhanna03@gmail.com]
+
+---
+
+## 🔖 Keywords
+
+`Power BI` `SQL` `Data Analytics` `Netflix Dashboard` `Python` `Data Visualization` `ETL` `Data Cleaning` `Storytelling with Data` `Dashboard Design` `SQL` `PBI Dashboard`
