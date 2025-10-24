@@ -64,7 +64,7 @@ The dataset was custom-built to resemble a realistic Netflix ecosystem:
 ## 📈 Dashboard Overview
 
 ### 🟥 **Page 1: Revenue & User Overview**
-- KPIs: Total Revenue, Active Users, ARPU (Avg. Revenue per User)
+- KPIs: Average Watch Time, Unique Shows, Unique Users, Total Watch Time
 - Donut: Watch Time Share by Genre
 - Donut: Watch Time Share by Device
 - Table: Top 10 Most Watched Shows
@@ -76,21 +76,27 @@ The dataset was custom-built to resemble a realistic Netflix ecosystem:
 
 ---
 
-### 🟩 **Page 2: User Behavior & Subscription Trends**
-- Donut: Age Group Distribution
-- Donut: Device Usage by User Count
-- Line + Column: Signups vs Cancellations (Year slicer)
-- KPIs: Net User Growth, Churn Rate (%), Signup Growth Rate (%)
+### 🟩 **Page 2: Content Performance & Engagement**
+- Slicer & Card Visual: Full Show Details, Search by Rating Slicer, Total Show List Slicer
+- Map: Users Over The World
+- Stacked Column Chart: Plan Distribution by Plan Type With Silcer Active/Cancelled Subscription
+- KPIs: Total Revenue, Avg Monthly Fee, New Signups, Active Users, Most Purchased Plan
+- Bar Chart: Signup v/s Cancellation by Year and Month
+- Line Chart: Revenue Over Time by Quarter and Included Year Slicer
 
+![Page 2: Content Performance & Engagement](netflix_pbi/report_screenshots/business.png)
   
 
 ---
 
-### 🟦 **Page 3: Content Performance & Engagement**
-- Donut: Genre-wise Watch Time %
-- Column: Top 10 Watched Titles
-- KPI: Most Engaged Device (TV / Mobile)
-- Insight Text Box: “TV users account for 60% of total watch time”
+### 🟦 **Page 3: User Behavior & Subscription Trends**
+- Slicer & Card Visual: Full Show Details, Search by Rating Slicer, Total Show List Slicer
+- Line & Column Chart: Showing Signup v/s Cancellation With Year Slicer
+- KPI's: Net User Growth, Churn Rate, Signup Growth, Most Engaged Device(TV/Web/Mobile)
+- Donut: Subscribe by Plan, Active and Cancelled User
+- Area Chart: Users by Age Group
+
+![Page 2: Content Performance & Engagement](netflix_pbi/report_screenshots/users.png)
 
 ---
 
