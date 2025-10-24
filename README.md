@@ -154,7 +154,7 @@ WHERE show_id IN (
 		  AND poster_url IS NOT NULL
 );
 ```
-
+---
 ## 📊 Power BI DAX Highlights
 
 > ```DAX
